@@ -55,5 +55,5 @@ production:S
   pool: 5
   database: tasklist-km0513
   username: tasklist
-  password: <%= ENV['tasklist-km0513_DATABASE_PASSWORD'] %>
+  password: <%= ENV['tasklist-km0513_DATABASE_PASSWORD'] %>:
   

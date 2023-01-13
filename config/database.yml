@@ -52,7 +52,7 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: tasklist-km0513_production
-  username: tasklist-km0513
-  password: <%= ENV['TASKLIST-KM0513_DATABASE_PASSWORD'] %>
+  database: tasklist-km0513-2_production
+  username: tasklist-km0513-2
+  password: <%= ENV['TASKLIST-KM0513-2_DATABASE_PASSWORD'] %>
   
